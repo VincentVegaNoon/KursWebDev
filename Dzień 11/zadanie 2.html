@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .board {
+            position: absolute;
+            height: 400px;
+            width: 400px;
+            top: 50%;
+            left: 50%;
+            /*            border: 4px black solid;*/
+            box-shadow: 0 0 22px 2px black;
+            margin-top: -204px;
+            margin-left: -204px;
+        }
+
+        span {
+            position: absolute;
+            display: block;
+            background-color: red;
+            height: 50%;
+            width: 50%;
+            top: 0;
+            left: 0;
+        }
+
+        span:nth-child(2) {
+            top: 50%;
+            left: 50%;
+            display: block;
+            border-color: red;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="board">
+        <span></span>
+        <span></span>
+    </div>
+</body>
+
+</html>

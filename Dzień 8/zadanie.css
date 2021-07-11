@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap&subset=latin-ext');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(molo.jpg);
+    background-size: cover;
+    min-height: 40vh;
+    background-position: center;
+}
+
+nav {
+    background-color: #333;
+    padding-left: 20px;
+    border-bottom: 4px royalblue;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 20px 30px;
+    font-family: roboto;
+}
+
+nav a:hover {
+    color: orange;
+}

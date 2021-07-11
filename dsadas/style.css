@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 30vw;
+    height: 40vh;
+    background-color: black;
+    display: block;
+    top: 200px;
+    bottom: 200px;
+}
